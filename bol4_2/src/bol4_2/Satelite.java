@@ -25,7 +25,9 @@ public double distancioaTerra(){
     double dist = distanciaTerra;
     return dist;
 }
-    
-   
+ public void verPosicion (){
+    System.out.println("O satelite atopase no paralelo "+paralelo+" meridiano "+meridiano+" a unha distancia da terra "+distanciaTerra);  
+ }
+ 
 
 }
